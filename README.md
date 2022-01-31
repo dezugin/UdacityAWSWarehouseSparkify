@@ -33,6 +33,10 @@ The log files in the dataset are partitioned by year and month.
     5. Launched a redshift cluster and created an IAM role that has read access to S3.
     6. Added redshift database and IAM role info to dwh.cfg.
     7. Tested by running create_tables.py and checking the table schemas in your redshift database.
+    
+
+Star schema:
+![Star Schema](Song_ERD.png?raw=true "Star Schema")    
 
 ### Build ETL Pipeline
 
